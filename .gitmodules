@@ -12,5 +12,5 @@
 	url = https://github.com/GNSPS/solidity-bytes-utils
 [submodule "lib/risc0"]
 	path = lib/risc0
-	url = https://github.com/risc0/risc0
-	rev = "4652f9c"
+	url = https://github.com/dghelm/risc0
+	branch = scroll-sepolia-deployment
