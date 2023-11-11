@@ -12,7 +12,7 @@ bonsai-ethereum-relay = { workspace = true }
 bonsai-sdk = { workspace = true, features = ["async"] }
 bytemuck = "1.13.1"
 clap = { version = "4.4", features = ["derive", "env"] }
-ethers = { version = "2.0", features = ["rustls", "ws"] }
+ethers = { version = "2.0", features = ["rustls", "ws", "legacy"] }
 ethers-signers = { version = "2.0", features = ["aws"] }
 hex = "0.4.3"
 methods = { workspace = true }
